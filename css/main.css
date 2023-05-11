@@ -1,0 +1,331 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body{
+    font-family: 'Carlito', sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+    
+}
+
+header{
+    padding-top: 20px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 79%, rgba(158,247,183,1) 89%, rgba(158,247,183,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 79%,rgba(158,247,183,1) 89%,rgba(158,247,183,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(255,255,255,1) 79%,rgba(158,247,183,1) 89%,rgba(158,247,183,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9ef7b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.header-logo{
+    height: 110px;
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.nav-list{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    column-gap: 75px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav{
+    margin-bottom: 100px;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.services{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+33,f2f8fd+35,f2f2f2+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 33%, rgba(242,248,253,1) 35%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 33%,rgba(242,248,253,1) 35%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 33%,rgba(242,248,253,1) 35%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+
+}
+
+.services-img{
+   height: 506px;
+   width: 363px;
+   margin-bottom: 120px;
+}
+
+.h1-silver{
+    font-family: 'Bad Script', cursive;
+    font-size: 48px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.service-text{
+    display: inline-block;
+    flex-direction: column;
+}
+
+.text-silver{
+    font-size: 19px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.btn-catalog{
+    margin-left: 100px;
+    font-family: 'Bad Script', cursive;
+    background-color: #9ef7b7;
+    padding: 0 55px;
+    border-radius: 0px;
+    font-size: 30px;
+    color: black
+}
+
+.service-about{
+    display: inline-block;
+    flex-direction: column;
+}
+
+.text-about{
+    font-size: 19px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#second-img{
+    justify-content: flex-end;
+}
+
+.h1-catalog{
+    font-family: 'Bad Script', cursive;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.catalog{
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.service-card{
+    width: 260px;
+    height: 250px;
+}
+
+.catalog-card-img{
+    margin-top: 50px;
+    width: 258px;
+    height: 244px;
+    margin-bottom: 20px;
+}
+
+.card-row{
+    display: flex;
+    column-gap: 130px;
+    row-gap: 190px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-text{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-price{
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.btn-buy-card{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #9ef7b7;
+    border-radius: 0px;
+    font-size: 18px;
+    color: black;
+}
+
+.contacts{
+    background-color: #f1f1f1;
+    padding-bottom: 130px;
+}
+
+.contacts-h1{
+    font-family: 'Bad Script', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts-content{  
+    padding-top: 40px;
+    background-color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number-phone{
+    font-family: 'Bad Script';
+    margin: 30px;
+}
+
+.contacts-text{
+    margin-bottom: 20px;
+}
+
+#end-content-contact{
+    margin-bottom: 50px;
+}
+
+.footer{
+    display:flex;
+    margin-bottom: 150px;
+}
+
+.footer-img{
+    padding-top: 150px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    column-gap: 60px;
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s,  visibility .4s;
+}
+
+.modal-box{
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
+    transform: scale(0);
+    transition: transform .8s;
+}
+
+.modal.open{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal.open .modal-box{
+    transform: scale(1);
+}
+
+.close-modal-btn{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+}
+
+.modal-title{
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-text{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.input-modal{
+    width: 300px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 30px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+    margin-bottom: 30px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+.form_radio_btn input[type=radio]:checked + label {
+	background: #9ef7b7;  /*#ffe0a6*/
+}
+ 
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+.modal-btn{
+    font-size: 18px;
+    background-color: #9ef7b7;
+    margin-top: 12px;
+    width:150px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    
+}
